@@ -89,7 +89,7 @@ Since the complement of an optimal Vertex Cover gives a Clique of maximum size, 
 
 %in the graph above the 2 aprox algo run on the complement graph G' will result in 4 vertcies being chosen, two of which should be included in the Clique of G, which means the resulting aprox algo for the clique is alg > 1/a opt where a equals 3 since opt is 3 and alg is one
 
-$OPT_{Vertex Cover} = |V| - k$ where $|V|$ is every vertex in a graph $G$ and $k$ is the number of vertices in the Clique of the complement, $G'$ as show in problem 2.
+$OPT_{Vertex Cover} = |V| - k$ where $|V|$ is every vertex in a graph $G$ and $k$ is the number of vertices in the Clique of the complement, $G'$ as show in problem 2. This is also valid despite referring to a graph and its compliment because this is talking strictly about the vertices which do not change between the two graphs.
 
 $ALG_{Vertex Cover} \le 2*OPT_{Vertex Cover} = 2(|V| - k) = 2(|V| - OPT_{Clique})$
 
